@@ -14,9 +14,9 @@ while True:
 
     if letra_digitada in palavra_secreta:
         letras_corretas += letra_digitada
-    #elif letra_digitada is not palavra_secreta:
-        #print(f'Você errou. Não tem {letra_digitada} na palavra secreta.')
-    
+    elif letra_digitada is not palavra_secreta:
+        print(f'Você errou. Não tem {letra_digitada} na palavra secreta.')
+  
     palavra_formada = ''
     for letra_secreta in palavra_secreta:
         if letra_secreta in letras_corretas:
