@@ -22,7 +22,7 @@ while True:
             menor = preco
             barato = produto
 
-    opcao = str(input('Deseja continuar [S/N]: ')).strip().upper()
+    opcao = str(input('Deseja continuar [S/N]: ')).strip().upper()[0]
     while opcao not in 'SN':
         opcao = str(input('Deseja continuar [S/N]: ')).strip().upper()
     if opcao == 'N':
