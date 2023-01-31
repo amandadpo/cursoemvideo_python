@@ -38,7 +38,7 @@ pessoas = {
         'Time':'Vasco',
         'Cidade':'Rio de Janeiro'
     },
-    'Alessandro':{
+    'Ali':{
         'Idade':'31',
         'Sexo':'Feminino',
         'Time':'Flamengo',
