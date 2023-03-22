@@ -9,4 +9,4 @@ def voto(ano = 0):
         return f'Você tem {idade} anos e seu VOTO é OBRIGATÓRIO!'
     
 x = int(input('Em que ano você nasceu? '))
-voto(x)
+print(voto(x))
